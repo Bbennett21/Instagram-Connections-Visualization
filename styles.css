@@ -37,6 +37,6 @@ body {
   }
   
   .logo {
-    height: 30px; 
-    width: 30px;
+    height: auto; /* Ensures image maintains aspect ratio */
+    max-height: 30px; /* Adjust the maximum height as desired */
   }
