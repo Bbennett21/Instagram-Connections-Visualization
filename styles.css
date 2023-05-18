@@ -6,9 +6,10 @@ body {
   }
   
   header, footer {
-    background-color: #dcdcdc; /* Slightly darker gray */
-    color: #9c9c9c; /* Dark gray text */
+    color: #424245; /* Dark gray text */
     padding: 10px;
+    border-bottom: 1px solid #d2d2d7; /* Border line */
+    height: 60px; /* Adjust the height as desired */
   }
   
   footer {
