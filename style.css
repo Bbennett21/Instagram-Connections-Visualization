@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray */
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #dcdcdc; /* Slightly darker gray */
+    color: #9c9c9c; /* Dark gray text */
+    padding: 10px;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
