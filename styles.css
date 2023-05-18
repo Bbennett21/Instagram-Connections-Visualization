@@ -39,4 +39,6 @@ body {
   .logo {
     height: auto; /* Ensures image maintains aspect ratio */
     max-height: 30px; /* Adjust the maximum height as desired */
+    padding: 10px;
+    display: inline-block;
   }
