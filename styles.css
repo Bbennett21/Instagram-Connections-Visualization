@@ -10,6 +10,15 @@ body {
     padding: 10px;
     border-bottom: 1px solid #d2d2d7; /* Border line */
     height: 40px; /* Adjust the height as desired */
+    
+  }
+  header {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline;
   }
   
   footer {
