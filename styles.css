@@ -1,46 +1,53 @@
+/* Reset CSS */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5; /* Light gray */
-    font-family: Arial, sans-serif;
-  }
-  
-  header, footer {
-    color: #424245; /* Dark gray text */
-    padding: 10px;
-    align-items: center; /* Vertically center align items */
-    border-bottom: 1px solid #d2d2d7; /* Border line */
-    height: 40px; /* Adjust the height as desired */
-    
-  }
-  header {
-    font-size: 24px;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: .007em;
-    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-    display: inline;
-  }
-  
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  h1 {
-    font-size: 24px;
-    display: inline-block;
-  }
-  
-  p {
-    font-size: 14px;
-  }
-  
-  .logo {
-    height: auto; /* Ensures image maintains aspect ratio */
-    max-height: 30px; /* Adjust the maximum height as desired */
-    margin: 10px;
-    display: inline-block;
-  }
+  background-color: #f5f5f5; /* Light gray */
+  font-family: Arial, sans-serif;
+}
+
+/* Header and Footer */
+header, footer {
+  color: #424245; /* Dark gray text */
+  padding: 10px;
+  align-items: center; /* Vertically center align items */
+  border-bottom: 1px solid #d2d2d7; /* Border line */
+  height: 40px; /* Adjust the height as desired */
+}
+
+header {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: inline;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Headings and Paragraphs */
+h1 {
+  font-size: 24px;
+  display: inline-block;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Logo */
+.logo {
+  height: auto; /* Ensures image maintains aspect ratio */
+  max-height: 30px; /* Adjust the maximum height as desired */
+  margin: 10px;
+  display: inline-block;
+}
