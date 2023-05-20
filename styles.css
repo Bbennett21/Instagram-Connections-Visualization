@@ -21,7 +21,7 @@ header, footer {
 
 header {
   font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.007em;
   display: flex; /* Changed to flex to enable vertical alignment */
