@@ -20,10 +20,12 @@ header, footer {
 }
 
 header {
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.007em;
-  display: inline;
+  display: flex; /* Changed to flex to enable vertical alignment */
+  align-items: center; /* Vertically center align items */
   border-bottom: 1px solid #d2d2d7; /* Add border to the bottom of the header */
 }
 
@@ -36,7 +38,6 @@ footer {
 
 /* Headings and Paragraphs */
 h1 {
-  display: inline-block;
 }
 
 p {
@@ -48,5 +49,4 @@ p {
   height: auto; /* Ensures image maintains aspect ratio */
   max-height: 30px; /* Adjust the maximum height as desired */
   margin: 10px;
-  display: inline-block;
 }
