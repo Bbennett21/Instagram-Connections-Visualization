@@ -7,36 +7,35 @@ html, body {
 /* Global Styles */
 body {
   background-color: #f5f5f5; /* Light gray */
-  font-family: Arial, sans-serif;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 /* Header and Footer */
 header, footer {
+  height: 40px; /* Adjust the height as desired */
+  width: 100%;
+  align-items: center; /* Vertically center align items */
   color: #424245; /* Dark gray text */
   padding: 10px;
-  align-items: center; /* Vertically center align items */
-  border-bottom: 1px solid #d2d2d7; /* Border line */
-  height: 40px; /* Adjust the height as desired */
 }
 
 header {
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.007em;
-  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
   display: inline;
+  border-bottom: 1px solid #d2d2d7; /* Add border to the bottom of the header */
 }
 
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  border-top: 1px solid #d2d2d7; /* Add border to the top of the footer */
 }
 
 /* Headings and Paragraphs */
 h1 {
-  font-size: 24px;
   display: inline-block;
 }
 
