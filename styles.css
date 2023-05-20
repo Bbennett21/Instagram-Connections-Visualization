@@ -8,6 +8,7 @@ body {
   header, footer {
     color: #424245; /* Dark gray text */
     padding: 10px;
+    align-items: center; /* Vertically center align items */
     border-bottom: 1px solid #d2d2d7; /* Border line */
     height: 40px; /* Adjust the height as desired */
     
