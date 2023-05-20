@@ -21,6 +21,7 @@ header, footer {
 
 header {
   height: 40px; /* Adjust the height as desired */
+  font-size: 18px !important;
   font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
   display: flex; /* Changed to flex to enable vertical alignment */
   align-items: center; /* Vertically center align items */
@@ -36,10 +37,9 @@ footer {
 }
 
 /* Headings and Paragraphs */
-h1 {
-  font-size: 18px !important; 
-  font-weight: 500;
-  letter-spacing: 0.007em;
+h1 { 
+  font-weight: 700 !important;
+  letter-spacing: 0.007em !important;
 }
 
 p {
