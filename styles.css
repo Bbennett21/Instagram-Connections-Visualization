@@ -40,8 +40,7 @@ h1 {
   font-size: 18px !important;
   font-weight: bold;
   letter-spacing: 0.007em;
-  margin-right: 10px; /* Add right margin to create spacing */
-  margin-left: 10px; /* Add left margin to create spacing */
+  margin-right: 5px; /* Add right margin to create spacing */
 }
 
 p {
@@ -53,23 +52,20 @@ p {
 .logo {
   height: auto; /* Ensures image maintains aspect ratio */
   max-height: 30px; /* Adjust the maximum height as desired */
-  margin-left: 10px; /* Add left margin for spacing */
-  margin-right: 10px; /* Add right margin for spacing */
+  margin-right: 5px; /* Add right margin for spacing */
 }
 
 /* Header Text */
 .header-text {
   display: flex; /* Added to enable horizontal alignment */
   align-items: center; /* Horizontally center align items */
-  margin-left: 10px; /* Add left margin for spacing */
-  margin-right: 10px; /* Add right margin for spacing */
   justify-content: space-between; /* Horizontally space items evenly */
+  flex-grow: 1; /* Allow the header text to grow and take up remaining space */
 }
 
 /* Try Now Button */
 .try-now-button {
-  margin-left: auto; /* Move the button to the right */
-  margin-right: 10px; /* Add right margin for spacing */
+  width: 120px; /* Set a fixed width for the button */
   padding: 6px 10px;
   background-color: #FD1D1D; /* Red */
   color: #fff; /* White */
