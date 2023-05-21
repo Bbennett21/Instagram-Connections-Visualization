@@ -48,6 +48,12 @@ p {
   margin-right: 10px; /* Add right margin to create spacing */
 }
 
+/* Logo Container */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
 /* Logo */
 .logo {
   height: auto; /* Ensures image maintains aspect ratio */
