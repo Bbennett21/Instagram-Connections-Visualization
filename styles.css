@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100vh; /* Set body height to 100% of viewport height */
+  min-height: -webkit-fill-available;
 }
 
 /* Global Styles */
