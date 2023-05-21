@@ -8,6 +8,7 @@ html, body {
 /* Global Styles */
 body {
   background-color: #febebe; 
+  height: 100vh; /* Set body height to 100% of viewport height */
   font-family: 'SF Pro Display', 'SF Pro Icons', 'AOS Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
