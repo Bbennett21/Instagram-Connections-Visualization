@@ -17,7 +17,7 @@ header {
   font-weight: bold;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: #424245;
   padding: 10px;
 }
