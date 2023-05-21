@@ -18,9 +18,9 @@ header {
   font-size: 18px;
   font-weight: bold;
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: space-between;
-  justify-content: center;
   color: #424245;
   padding: 10px;
   padding-left: 20px; /* Adjust the left padding */
