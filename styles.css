@@ -40,6 +40,7 @@ h1 {
   font-size: 18px !important;
   font-weight: bold;
   letter-spacing: 0.007em;
+  margin-right: 10px; /* Add right margin to create spacing */
 }
 
 p {
@@ -58,14 +59,15 @@ p {
   display: flex; /* Added to enable horizontal alignment */
   align-items: center; /* Horizontally center align items */
   margin-left: 10px;
+  margin-right: 10px; /* Add horizontal spacing */
 }
 
 /* Try Now Button */
 .try-now-button {
-  margin-right: auto;
-  margin-left: 10px;
+  margin-left: auto; /* Move the button to the right */
+  margin-right: 10px; /* Add right margin for spacing */
   padding: 6px 10px;
-  background-color: #FD1D1D; /* Blue */
+  background-color: #FD1D1D; /* Red */
   color: #fff; /* White */
   border: none;
   border-radius: 4px;
