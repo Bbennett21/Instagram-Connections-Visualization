@@ -18,7 +18,7 @@ header {
   font-weight: bold;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #424245;
   padding: 10px;
   padding-left: 20px; /* Adjust the left padding */
