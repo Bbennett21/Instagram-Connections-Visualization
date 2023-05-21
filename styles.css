@@ -24,11 +24,10 @@ header {
   font-weight: bold;
   display: flex; /* Changed to flex to enable vertical alignment */
   align-items: center; /* Vertically center align items */
-  border-bottom: 1px solid #FD1D1D; /* Add border to the bottom of the header */
 }
 
 footer {
-  height: 20px; /* Adjust the height as desired */
+  height: 10px; /* Adjust the height as desired */
   position: fixed;
   left: 0;
   bottom: 0;
