@@ -24,7 +24,7 @@ header {
   font-weight: bold;
   display: flex; /* Changed to flex to enable vertical alignment */
   align-items: center; /* Vertically center align items */
-  border-bottom: 1px solid #d2d2d7; /* Add border to the bottom of the header */
+  border-bottom: 1px solid #FD1D1D; /* Add border to the bottom of the header */
 }
 
 footer {
@@ -32,7 +32,7 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  border-top: 1px solid #d2d2d7; /* Add border to the top of the footer */
+  border-top: 1px solid #FD1D1D; /* Add border to the top of the footer */
 }
 
 /* Headings and Paragraphs */
@@ -55,6 +55,8 @@ p {
 
 /* Header Text */
 .header-text {
+  display: flex; /* Added to enable horizontal alignment */
+  align-items: center; /* Horizontally center align items */
   margin-left: 10px;
 }
 
