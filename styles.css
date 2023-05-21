@@ -66,7 +66,6 @@ p {
   display: flex; /* Added to enable horizontal alignment */
   align-items: center; /* Horizontally center align items */
   justify-content: space-between; /* Horizontally space items evenly */
-  flex-grow: 1; /* Allow the header text to grow and take up remaining space */
 }
 
 /* Try Now Button */
