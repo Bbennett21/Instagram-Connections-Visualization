@@ -2,6 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Global Styles */
@@ -20,6 +21,14 @@ header {
   justify-content: space-around;
   color: #424245;
   padding: 10px;
+  padding-left: 20px; /* Adjust the left padding */
+  padding-right: 20px; /* Adjust the right padding */
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
 /* Header Text */
