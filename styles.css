@@ -47,8 +47,8 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  border-top: 1px solid #FD1D1D;
-  color: #E1306C;
+  border-top: 1px solid #C13584;
+  color: #C13584;
   padding: 10px;
 }
 
@@ -76,7 +76,7 @@ p {
 .try-now-button {
   width: 80px;
   padding: 6px 10px;
-  background-color: #E1306C;
+  background-color: #C13584;
   color: #fff;
   border: none;
   border-radius: 4px;
