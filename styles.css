@@ -35,6 +35,7 @@ header {
 
 /* Header Text */
 .header-text {
+  flex-grow: 1;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -47,8 +48,8 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  border-top: 1px solid #C13584;
-  color: #C13584;
+  border-top: 1px solid #E1306C;
+  color: #E1306C;
   padding: 10px;
 }
 
