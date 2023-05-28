@@ -18,6 +18,7 @@ header {
   height: 60px;
   font-size: 18px;
   font-weight: bold;
+  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,13 +44,14 @@ header {
 footer {
   height: 10px;
   width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: relative;
   border-top: 1px solid #E1306C; /* Instagram Pink */
+  background-color: #ffffff; /* White */
   color: #E1306C; /* Instagram Pink */
   padding: 10px;
+  margin-top: 40px; /* Add a top margin to create space between the footer and main content */
 }
+
 
 /* Headings and Paragraphs */
 h1 {
