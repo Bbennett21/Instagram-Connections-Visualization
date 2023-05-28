@@ -11,7 +11,6 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   height: 100vh;
   min-height: -webkit-fill-available;
-  margin-bottom: 30px;
 }
 
 /* Header */
@@ -45,13 +44,13 @@ header {
 footer {
   height: 10px;
   width: 100%;
-  position: fixed; /* Change position to fixed */
+  position: fixed; /* Change position to fixed */     
   left: 0;
   bottom: 0;
   border-top: 1px solid #E1306C; /* Instagram Pink */
   background-color: #ffffff; /* White */
   color: #E1306C; /* Instagram Pink */
-  padding: 10px;
+  padding-bottom: 1.5rem;
 }
 
 
