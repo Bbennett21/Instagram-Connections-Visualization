@@ -50,6 +50,8 @@ footer {
   border-top: 1px solid #E1306C; /* Instagram Pink */
   background-color: #ffffff; /* White */
   color: #E1306C; /* Instagram Pink */
+  display: flex;
+  align-items: center;
   padding-bottom: 1.5rem;
 }
 
