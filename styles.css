@@ -56,14 +56,19 @@ footer {
 
 
 /* Headings and Paragraphs */
-h1 {
+t1 {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.007em;
   margin-right: 5px;
 }
 
-p {
+h1 {
+  font-size: 14px;
+  margin: 10px;
+}
+
+f {
   font-size: 14px;
   margin: 10px;
 }
