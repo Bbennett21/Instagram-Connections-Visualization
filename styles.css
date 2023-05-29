@@ -44,6 +44,8 @@ header {
 footer {
   height: 10px;
   width: 100%;
+  left: 0;
+  bottom: 0;
   position: fixed; /* Change position to fixed */     
   border-top: 1px solid #E1306C; /* Instagram Pink */
   background-color: #ffffff; /* White */
